@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist app</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h2>To-Do-List</h2>
+    </div>
+    <div class="todocontain">
+        <input type="text"
+        id="todotext"
+        class="todoinput"
+        placeholder="Add-Task">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAA8xJREFUWEflmF2IFWUYx//Pe3bpnDmre2aUKJQ0QQU/5swmmtmXIgRedJNFdlMgeBGBkRJ1Z+hNBhXdGQTqRUlEXYlQQooSWe3COXPWCJGEWr/dOad0Z5TOvE/Msitnd8+Zed/Zs+1ZmsuZ5+M3/+f9fAhz5KE5won/F6hv2RsBLGKwRQwrqhITPAJ5AC4bnntuupVLrWhQ6FsiRX0nMb0GYEkCyCViOsIiPGx4g3+mgdYGvWf1rQq5vg+glwDtoSMBOibC+nvZv89f1AFWBvXMdb1Z/HMIwA6dBK1smeiIke16g64M+CrxlEADc9UjzF0nQVihElTDpiS76tt6bv56LcknEfROYXVRiMx3YDyYFCzl9yGRoa3ZW+ULcf6xoEHBWcokfwGwMCWEqttQvd7dN//2wK1WDi1B2Xp8foCgH4zlqtmmZUfozxn5Z2jox6BZnJagfsH+CoQXp5Vc05mAQ7mq+7oyqL+guAGSf9LMAzDeIojS6IIP6YDwsW4MkaGVzcZrU0V9s/gDwJt0kxCLLbla6XTkFxSczUzylG4MML42au6USk4BDUz7aQbOaCeIVv92gAIQYbh88oYwBdS37E/A2D2boAC/a1QrBxsZpoKa9lUAD80uKM4ZVfeJlqC3reLqDPNgGsjIp12lj2LdY2GatVJtnGWCoiPm2m0EOtEJoCzEhvxwKdpsRp8JoEHBfpUJR2NBG5agyXZ3gdK4CtWCU8gCTrNYSksX03ajVv6mKahv2m8D+CAOtLG8aZVXWrqI9xhe5f46PEFR3yruAfOHnQFKew2v/FErRV8B8EVHlJ5oh+GVv2wxRotbmPj7tCVt56wn5mdztcr9jWfiZOq1H2WB3zsBFIIWG8Ply00VjV76pn0JwNI0sO1SlIBKruraCTtT8X2A35lNUCben/cq+2JBRxY460nKn2cTVILtnmqlEgs6Vv6zAJ7ShW1T6Y8bVff5ybmbnkdHeu3HSGBAF7QdB+eQaM08r3xeCXRM1WPtusOr/jAxPsvV3F3N7Dvncge4uXx+o/blLvqr//K6LLvq6+MaEQoNCMcRJE/O4N3+Skbw1geGK7/FnjFUxk/UuWMKvwWwUsVew8aV3fK5nhuD15N8EhUdDzDWJPsUwMtJQVW+RxMna3S/2dYmWWPi0bajDPeD8EKKtmPIwOeZMDwwY23HySrd7V27LBS0k4Cokbs4XkW6SODDLOho40FDRfmWhxId53Fb33SeBMmHmdkSEBZD8mhrXIph5vCP/F+D/WniJm6h0w06E/7Kk2kmkuvEnDOg/wJoQrw6B9B+sgAAAABJRU5ErkJggg==" alt="+"
+           id="AppUpdateClick" 
+           onclick="createTodoData()"/>
+        </div> 
+    <ul class="list-items" id="list-items"></ul> 
+     </div>
+     
+</body>
+<script src="todolist.js">
+    
+</script>
+</html>
